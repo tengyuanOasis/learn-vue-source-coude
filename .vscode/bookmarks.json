@@ -1,0 +1,189 @@
+{
+	"files": [
+		{
+			"path": "src/core/instance/index.js",
+			"bookmarks": [
+				{
+					"line": 7,
+					"column": 24,
+					"label": "01、vue"
+				}
+			]
+		},
+		{
+			"path": "src/core/instance/state.js",
+			"bookmarks": [
+				{
+					"line": 49,
+					"column": 42,
+					"label": "02、initState 初始化state"
+				},
+				{
+					"line": 117,
+					"column": 34,
+					"label": "02-1、initData"
+				}
+			]
+		},
+		{
+			"path": "src/core/observer/index.js",
+			"bookmarks": [
+				{
+					"line": 36,
+					"column": 23,
+					"label": "02-2、Observer 观察者实例"
+				},
+				{
+					"line": 65,
+					"column": 21,
+					"label": "02-3、循环data属性，进行数据拦截"
+				},
+				{
+					"line": 137,
+					"column": 31,
+					"label": "02-4、数据劫持 & 依赖收集 & 更新提示"
+				}
+			]
+		},
+		{
+			"path": "src/core/instance/init.js",
+			"bookmarks": [
+				{
+					"line": 52,
+					"column": 18,
+					"label": "03、事件机制"
+				}
+			]
+		},
+		{
+			"path": "src/core/instance/events.js",
+			"bookmarks": [
+				{
+					"line": 62,
+					"column": 52,
+					"label": "03-1、eventMixin"
+				},
+				{
+					"line": 66,
+					"column": 32,
+					"label": "03-2、$on"
+				},
+				{
+					"line": 88,
+					"column": 38,
+					"label": "03-3、$once"
+				},
+				{
+					"line": 102,
+					"column": 33,
+					"label": "03-4、$off"
+				},
+				{
+					"line": 146,
+					"column": 33,
+					"label": "03-5、$emit"
+				}
+			]
+		},
+		{
+			"path": "src/platforms/web/entry-runtime-with-compiler.js",
+			"bookmarks": [
+				{
+					"line": 18,
+					"column": 33,
+					"label": "03、模板编译"
+				}
+			]
+		},
+		{
+			"path": "src/core/vdom/vnode.js",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 28,
+					"label": "03-1、模板编译-Vnode"
+				}
+			]
+		},
+		{
+			"path": "src/compiler/create-compiler.js",
+			"bookmarks": [
+				{
+					"line": 8,
+					"column": 22,
+					"label": "03-3、模板编译-compile"
+				}
+			]
+		},
+		{
+			"path": "src/compiler/to-function.js",
+			"bookmarks": [
+				{
+					"line": 20,
+					"column": 72,
+					"label": "03-2、模板编译-createCompileToFunctionFn"
+				}
+			]
+		},
+		{
+			"path": "src/server/optimizing-compiler/index.js",
+			"bookmarks": [
+				{
+					"line": 7,
+					"column": 72,
+					"label": "03-4、模板编译-baseCompile"
+				}
+			]
+		},
+		{
+			"path": "src/core/util/next-tick.js",
+			"bookmarks": [
+				{
+					"line": 2,
+					"column": 0,
+					"label": "04、nextTick原理"
+				}
+			]
+		},
+		{
+			"path": "vue_v2.6.14-router/src/util/push-state.js",
+			"bookmarks": [
+				{
+					"line": 24,
+					"column": 61,
+					"label": "1、vue-router，pushState"
+				}
+			]
+		},
+		{
+			"path": "vue_v2.6.14-router/src/history/abstract.js",
+			"bookmarks": [
+				{
+					"line": 17,
+					"column": 22,
+					"label": "3、transitionTo"
+				}
+			]
+		},
+		{
+			"path": "vue_v2.6.14-router/src/util/state-key.js",
+			"bookmarks": [
+				{
+					"line": 9,
+					"column": 40,
+					"label": "2、通过getStateKey创建一个时间戳作为key"
+				}
+			]
+		},
+		{
+			"path": "src/core/vdom/patch.js",
+			"bookmarks": [
+				{
+					"line": 831,
+					"column": 0,
+					"label": "05、Diff算法-Patch函数"
+				}
+			]
+		}
+	]
+}

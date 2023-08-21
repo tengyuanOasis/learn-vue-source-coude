@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vue源码学习</title>
+  <script src="../dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+
+</body>
+
+<script>
+  window.app = new Vue({
+    template: `
+    <div>
+      <p>
+        {{name}}
+      </p>
+      <ul>
+        <li v-for="(item,index) in hobby" :key="index">{{item}}</li>
+      </ul>
+      <button v-on:click="changeHobby">修改hobby</button>
+    </div>
+
+    `,
+    el: '#app',
+    props: {
+      age: Number,
+    },
+    data() {
+      return {
+        name: 'Mike',
+        hobby: ['swimming', 'travel']
+      }
+    },
+    methods: {
+      changeHobby() {
+        this.hobby.push('coding')
+      }
+    },
+  })
+
+</script>
+
+</html>
